@@ -1,0 +1,11 @@
+<div class="pokemon-list-container">
+  <p
+  class="pokemon-notfound-label"
+  *ngIf="pokemons.length <= 0">
+    Pokemon not found
+  </p>
+  <app-pokemon-item
+    *ngFor="let pokemon of pokemons"
+    [pokemon]="pokemon"
+  />
+</div>

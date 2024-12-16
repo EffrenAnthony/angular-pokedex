@@ -1,0 +1,9 @@
+<!-- card with pokemon name and image -->
+<div class="pokemon-container">
+  <div class="pokemon-card">
+    <img [src]="pokemon.image" class="pokemon-card--img-top" alt="...">
+    <div class="pokemon-card--body">
+      <h5 class="pokemon-card--title">{{pokemon.name | uppercase}}</h5>
+    </div>
+  </div>
+</div>

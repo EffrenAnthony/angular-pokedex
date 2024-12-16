@@ -1,0 +1,5 @@
+<div class="pokelogo-container">
+  <img src="pokelogo.png" alt="Logo" class="pokelogo">
+</div>
+<app-pokemon-input (pokemonName)="onSearchPokemon($event)"/>
+<app-pokemon-list [pokemons]="filteredPokemons"></app-pokemon-list>

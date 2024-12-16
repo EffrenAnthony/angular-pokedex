@@ -1,0 +1,8 @@
+@if(isLoggedIn){
+<p>user works! {{ username }}</p>
+} @else{
+<p>user does not work!</p>
+}
+
+<!-- ngif with isloggin -->
+<p *ngIf="isLoggedIn">{{ username }} Logged in</p>
